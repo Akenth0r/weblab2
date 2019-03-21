@@ -1,0 +1,173 @@
+@font-face {
+        font-family: 'Oswald';
+        src: url('../font/oswald/Oswald-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
+
+
+a{
+	text-decoration:none;
+	color: black;
+}
+
+html{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	
+}
+body{
+	background-image: url("../image/background.jpg");
+}
+
+
+
+#header{
+	display:flex;
+	width:100%;
+	min-width: 80em;
+	min-height: 8em;
+	background-color: #9e9e9eA0;
+	border-radius: 1em;
+	align-items: center;
+	justify-content: center;
+	box-shadow: -1px 4px 10px 0.1px rgba(0,0,0,0.2);
+
+}
+
+#navigation > .navb {
+	text-align:center;
+	display: inline-flex;
+	margin-left: 1em;
+	min-width: 3em;
+	width: 20em;
+	min-height: 4em;
+	height: 4em;
+	font-size: 1.2em;
+	border-radius: 1em;
+	transition: padding 1s;
+	background-color: rgba(150,170,170,0.6);
+	box-shadow: -1px 4px 10px 0.1px rgba(0,0,0,0.2);
+	
+}
+
+h1{
+	text-shadow: 3px 2px #00000070;
+}
+
+
+.navb2 {
+	justify-content: center;
+}
+
+
+
+#dop {
+	display: flex;
+	flex-direction: column;
+}
+
+#menu {
+	display: none;
+}
+
+#dop:hover > #menu{
+	
+	display: flex;
+}
+
+.submenu {
+	padding: 0 0.2em;
+	background-color: rgba(180,200,200,0.6);
+	transition: background-color 1s;
+	margin-left: 0.2em;
+	font-size: 0.8em;
+	width: 8em;
+	
+}
+
+.submenu:hover{
+	background-color: rgba(253,208,251,0.5);
+}
+
+
+
+
+#header_cont{
+}
+
+.navb:hover{
+	padding: 1em;
+	letter-spacing: 1px;
+}
+
+#body {
+	display: flex;
+	width: 100%;
+	height: 79%;
+	margin: 0.3em 0;
+	min-height: 30em;
+	min-width: 80em;
+	justify-content: center;
+}
+
+#body_cont1{
+	width: 50%;
+	min-width: 40em;
+	background-color: #9e9e9eA0;
+	margin-right: 0.1em;
+	border-radius: 1em;
+	box-shadow: -1px 4px 10px 0.1px rgba(0,0,0,0.2);
+
+}
+
+#body_cont2{
+	width: 50%;
+	min-width: 40em;
+	background-color: #9e9e9eA0;
+	margin-left: 0.1em;
+	border-radius: 1em;
+	box-shadow: -1px 4px 10px 0.1px rgba(0,0,0,0.2);
+
+}
+
+p {
+	margin-left: 2.8em;
+	text-align:left;
+	width: 90%;
+}
+
+
+
+.gal{
+	width: 30%;
+	height: 25%;
+	transition: width 1s, height 1s, transform 0.3s;
+	margin-top: 1em;
+}
+
+.gal:active{
+	transform: scale(2);
+}
+
+.gallery{
+	margin-top: 8%;
+}
+
+#footer{
+	height: 5%;
+	min-height: 3em;
+	background-color: #9e9e9eA0;
+	min-width: 80em;
+	border-radius: 1em;
+	box-shadow: -1px 4px 10px 0.1px rgba(0,0,0,0.2);
+
+}
+
+
+#footer_cont{
+	text-align:right;
+	margin-right: 1em;
+}
